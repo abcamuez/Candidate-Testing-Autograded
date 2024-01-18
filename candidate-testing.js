@@ -24,7 +24,7 @@ candidateName = input.question("Please enter your name: ")
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
 console.log(question)
-candidateAnswer = prompt("Your Answer: ");
+candidateAnswer = input.question("Your Answer: ");
 
 }
 
