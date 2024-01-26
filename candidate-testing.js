@@ -28,11 +28,10 @@ let userResponse = [];
 for(let i = 0; i < questions.length; i++) {
   let candidateAns = input.question(questions[i]);
     candidateAnswers.push(candidateAns)
-    
-}
 
 }
 
+}
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
@@ -40,7 +39,7 @@ function gradeQuiz(candidateAnswers) {
 console.log(`Your answer is ${candidateAnswers} and the correct answer is ${correctAnswers[i]}.`)
 
 
-  let grade = correctAnswer/correctAnswer*100;  //TODO 3.2 use this variable to calculate the candidates score.
+  let grade;  //TODO 3.2 use this variable to calculate the candidates score.
 
 
   return grade;
